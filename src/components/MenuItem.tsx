@@ -5,7 +5,7 @@ import { addItem, deleteItem, selectItemQuantity } from "../store/cartSlice";
 import { removeItem } from "../store/cartSlice";
 
 
-type MenuItemProps = {
+export type MenuItemProps = {
   item: Pizza;
   readonly?: boolean;
 };
